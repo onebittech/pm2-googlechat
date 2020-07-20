@@ -1,5 +1,5 @@
 {
-  "name": "@onebittech/pm2-googlechat",
+  "name": "pm2-googlechat",
   "version": "1.0.0",
   "description": "A PM2 module to emit events to Google Chat",
   "main": "index.js",
