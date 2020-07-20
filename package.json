@@ -1,5 +1,5 @@
 {
-  "name": "pm2-googlechat",
+  "name": "@onebittech/pm2-googlechat",
   "version": "1.0.0",
   "description": "A PM2 module to emit events to Google Chat",
   "main": "index.js",
@@ -8,17 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/onebittech/pm2-googlechat"
+    "url": "git+https://github.com/onebittech/pm2-googlechat.git"
   },
   "keywords": [
     "pm2",
     "googlechat"
   ],
-  "authors": [
-    "Matt Atkinson <mattpker@gmail.com> (https://github.com/mattpker)",
-    "Miguel Liezun <mliezun@onebittech.com>"
-  ],
   "contributors": [
+    "Matt Atkinson <mattpker@gmail.com> (https://github.com/mattpker)",
     "Martin Zaloudek (https://github.com/ma-zal)"
   ],
   "licenses": [
@@ -54,5 +51,7 @@
     "buffer_seconds": 2,
     "queue_max": 100,
     "buffer_max_seconds": 20
-  }
+  },
+  "author": "Miguel Liezun <mliezun@onebittech.com>",
+  "license": "MIT"
 }
